@@ -12,7 +12,7 @@
 <script type="text/javascript">  
 $(function() {
   $('.slider').slick({
-    dots:false,
+    dots: true,
     arrows: false,
     centerMode: false,
     autoplay:true,
@@ -30,19 +30,12 @@ $(function() {
   <ul class="slider">
      <li><img src="sp/SumahoGazou/tps_l_01.jpg"></li>
      <li><img src="sp/SumahoGazou/tps_l_02.jpg"></li>
+     <li><img src="sp/SumahoGazou/tps_l_03.jpg"></li>
+     <li><img src="sp/SumahoGazou/tps_l_04.jpg"></li>
   </ul>
 
 
 
-					<!-- img src="img/main/main_img.jpg" width="656" height="268" alt="saien / 埼玉園芸市場" class="mt10" /><br / -->
-
-
-
-				</div>
-				<div id="top-main-right"><p class="font01">ニュースリリース</p>
-					<div class="list1-wrap">
-						<?php readfile("whatsnew/list_renewal.php"); ?>
-					</div>
 				</div>
 			</div>
 			<div class="column">
