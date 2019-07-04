@@ -2,13 +2,44 @@
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC4fOvzTfDIINRq6Or2mxTTnjigg_VJzI"></script>
 
+<!-- スライドショー -->
+  <link rel="stylesheet" type="text/css" href="https://saien.heteml.jp/okutomo/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://saien.heteml.jp/okutomo/slick/slick-theme2.css"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://saien.heteml.jp/okutomo/slick/slick.min.js"></script>
+
+<script type="text/javascript">  
+$(function() {
+  $('.slider').slick({
+    dots:false,
+    arrows: false,
+    centerMode: false,
+    autoplay:true,
+    autoplaySpeed:8000,
+  });
+});
+</script>
+
+
 		<div id="main">
 			<div id="top-main">
 				<div class="fl">
-					<img src="img/main/main_img.jpg" width="656" height="268" alt="saien / 埼玉園芸市場" class="mt10" /><br />
-					<div id="login-box"></div>
+
+
+  <ul class="slider">
+     <li><img src="sp/SumahoGazou/tps_l_01.jpg"></li>
+     <li><img src="sp/SumahoGazou/tps_l_02.jpg"></li>
+  </ul>
+
+
+
+					<!-- img src="img/main/main_img.jpg" width="656" height="268" alt="saien / 埼玉園芸市場" class="mt10" /><br / -->
+
+
+
 				</div>
-				<div id="top-main-right"><p class="font01">トピックス</p>
+				<div id="top-main-right"><p class="font01">ニュースリリース</p>
 					<div class="list1-wrap">
 						<?php readfile("whatsnew/list_renewal.php"); ?>
 					</div>
@@ -21,7 +52,6 @@
 
 <section class="mainmargin">
  <p class="font02">インフォメーション</p>
-  <!-- h3 class="mt30"><img src="img/information_bar.gif" width="507" height="47" alt="information" /></h3 -->
   <a target="_blank" href="http://www2.saien.co.jp/">
   <img alt="touroku.jpg" src="img/saienlogin3.jpg" width="500px" height="auto" alt="SaienLogin画面へ" /><br />→画像が反応しない方はコチラから【Saienログイン画面へ】</a>
 </section>
@@ -45,15 +75,12 @@
 
 <section class="mainmargin">
   <p class="font02">お知らせ</p>
-  <!-- h3><img src="img/news_bar.gif" width="506" height="46" alt="お知らせ" /></h3 -->
   <?php readfile("whatsnew/list_information.php"); ?>
   <div class="right-link"><a href="whatsnew.html">お知らせ一覧</a></div>
 </section>
 
 <section class="mainmargin">
   <p class="font02">お取引希望の方へ</p>
-  <!-- h3 class="mt30"><img src="img/otorihiki_bar.gif" width="506" height="49" alt="お取引希望の方へ" /></h3 -->
-
   <img src="image/0818/torihikimeisi.jpg" width="500px" height="auto" alt="取引イメージ画像" />
 
   <p>全国から集まる生花、鉢物植木のせり売り、 オリジナル商品の企画、アレンジメント、世界の 園芸用品・資材の卸売りまで、花き、園芸のことなら 全てを取り扱う総合市場です。</p>
@@ -66,9 +93,13 @@
   </div>
 </section>
 
+
+
+
+
+
 <section class="mainmargin">					
   <p class="font02">注目の産地情報！</p>
-  <!-- h3 class="mt30"><img src="img/sanchijyouhou_bar.gif" width="507" height="47" alt="注目の産地情報！" /></h3 -->
   <div class="santi">
     <?php readfile("sanchi/list_sanchi.php"); ?>
   </div>
@@ -76,7 +107,6 @@
 
 <section class="mainmargin">
   <p class="font02">注目の資材情報！</p>
-  <!-- h3 class="mt30"><img src="img/sizaijyouhou_bar.gif" width="507" height="47" alt="注目の資材情報！" /></h3 -->
   <div class="santi">
     <?php readfile("sizai/list_sizai.php"); ?>
   </div>
