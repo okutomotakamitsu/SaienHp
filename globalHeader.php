@@ -69,6 +69,7 @@ hs.captionEval = 'this.thumb.alt';
 		<div id="head">
 			<div id="logo"><a href="<$MTBlogURL$>index.html"><img src="<$MTBlogURL$>sp/SumahoGazou/logo.jpg" width="300" height="59" alt="株式会社 埼玉園芸市場 ロゴ" /></a></div>
 			<div id="head-right">
+
 				<div id="headnavi">
 					<ul>
 						<li class="navi1"><a href="<$MTBlogURL$>index.html"><span>HOME</span></a></li>
@@ -77,6 +78,18 @@ hs.captionEval = 'this.thumb.alt';
 						<li class="navi4"><a href="<$MTBlogURL$>contact.html"><span>お問い合わせ</span></a></li>
 					</ul>
 				</div>
+
+<!-- div id="headnavi01">
+	<ul>
+		<li><a href="<$MTBlogURL$>index.html">HOME</a></li>
+		<li><a href="<$MTBlogURL$>privacy.html">プライバシーポリシー</a></li>
+		<li><a href="<$MTBlogURL$>sitemap.html">サイトマップ</a></li>
+		<li><a href="<$MTBlogURL$>contact.html">お問い合わせ</a></li>
+	</ul>
+</div -->
+
+
+
 				<div id="fontSize">
 					<ul id="fontSizeSet">
 						<li><img id="fontL" name="fontL" src="<$MTBlogURL$>img/font_l.gif" width="21" height="21" alt="大" /></li>
@@ -85,33 +98,23 @@ hs.captionEval = 'this.thumb.alt';
 					</ul>
 					<script type="text/javascript">FontChanger.start("fontSizeSet");</script>
 				</div>
+
 				<div id="contact-box">
 					<a href="<$MTBlogURL$>contact.html"><img src="<$MTBlogURL$>img/mail.gif" width="38" height="23" alt="メールでお問い合わせ" /></a>
 				</div>
 			</div>
 		</div>
-		<!-- div id="navi">
-			<ul>
-				<li class="navi1"><a href="<$MTBlogURL$>whatsnew.html"><span>お知らせ</span></a></li>
-				<li class="navi2"><a href="<$MTBlogURL$>otorihiki.html"><span>取引希望のお客様</span></a></li>
-				<li class="navi3"><a href="<$MTBlogURL$>sijyogaiyou.html"><span>市場概要</span></a></li>
-				<li class="navi4"><a href="<$MTBlogURL$>section.html"><span>部門紹介</span></a></li>
-				<li class="navi5"><a href="<$MTBlogURL$>staff.html"><span>スタッフ紹介</span></a></li>
-				<li class="navi6"><a href="<$MTBlogURL$>sanchi.html"><span>産地情報</span></a></li>
-				<li class="navi7"><a href="<$MTBlogURL$>contact.html"><span>お問い合わせ</span></a></li>
-			</ul>
-		</div -->
-<!-- div>
-			<ul class="list01">
-				<li><a href="<$MTBlogURL$>whatsnew.html">お知らせ</a></li>
-				<li><a href="<$MTBlogURL$>otorihiki.html">取引希望のお客様</a></li>
-				<li><a href="<$MTBlogURL$>sijyogaiyou.html"><span>市場概要</a></li>
-				<li><a href="<$MTBlogURL$>section.html"><span>部門紹介</a></li>
-				<li><a href="<$MTBlogURL$>staff.html"><span>スタッフ紹介</a></li>
-				<li><a href="<$MTBlogURL$>sanchi.html"><span>産地情報</a></li>
-				<li><a href="<$MTBlogURL$>contact.html"><span>お問い合わせ</a></li>
-			</ul>
-</div -->
+
+<div id="navi01">
+	<ul class="list01">
+		<li><a href="<$MTBlogURL$>whatsnew.html">お知らせ</a></li>
+		<li><a href="<$MTBlogURL$>otorihiki.html">取引希望のお客様</a></li>
+		<li><a href="<$MTBlogURL$>sijyogaiyou.html"><span>市場概要</a></li>
+		<li><a href="<$MTBlogURL$>section.html"><span>部門紹介</a></li>
+		<li><a href="<$MTBlogURL$>staff.html"><span>スタッフ紹介</a></li>
+		<li><a href="<$MTBlogURL$>sanchi.html"><span>産地情報</a></li>
+	</ul>
+</div>
 EOM;
 
 ?> 
