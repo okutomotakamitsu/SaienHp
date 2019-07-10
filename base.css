@@ -5,10 +5,12 @@ body {
 }
 
 a {
+	text-decoration: none;
 	color: #336699;
 }
 
 a:hover {
+	text-decoration: underline;
 	color: #6699ff;
 }
 
@@ -78,7 +80,8 @@ a:hover {
 
 #head-right {
 	float: left;
-	padding-left: 200px;
+	padding-left: 100px;
+	background-color: #EEE;
 }
 
 #headnavi {
@@ -342,12 +345,12 @@ a:hover {
 }
 
 .list1-wrap {
-	width: 325px;
+	width: 700px;
 	_width: 225px;
 	height: 180px;
 	_height: 230px;
 	overflow: auto;
-	_background: #EEE;
+	background: #EEE;
 }
 
 .column {
@@ -620,6 +623,99 @@ overflow-y : hidden;}
 .mainmargin2 {background: #fff url(../img/back.gif) repeat-x; width: 450px; padding: 25px; 
  margin-bottom: 25px;}
 
-/* 20190701 */
+/* 見出し文字設定 */
 .font01 {font-family: 'Noto Sans Japanese'; font-size: 24px; font-weight: 100; border-bottom: 1px solid #ccc;}
-  
+
+.font02 {font-family: 'Noto Sans Japanese'; font-size: 24px; font-weight: 100; border-bottom: 1px solid #ccc; width: 700px;}
+
+.font03 {font-family: 'Noto Sans Japanese'; font-size: 24px; font-weight: 100; border-bottom: 1px solid #ccc; width: 350px;}
+
+
+/* slickスライダー設定 */
+.slider {
+    width: 1000px;
+    height:344px;
+    margin: 0 auto;
+    _background-color: #EEE;
+    
+    opacity: 0;
+    transition: opacity .3s linear;
+}
+.slider.slick-initialized{
+    opacity: 1;
+}
+.slider img {
+    width: 100%;
+}
+
+
+.list01 {
+    font-size: 12px;
+    color: #3b3b3b;
+    overflow: hidden;
+    zoom: 1;
+    float: left;
+    margin: 0;
+}
+
+.list01 li {float: left;
+    height: 47px;}
+
+.list01 li a { 
+    background: url(/sp/SumahoGazou/list01_bg.png) no-repeat right 10px;
+    padding: 7px 10px 0;
+    height: 40px;
+    display: block;}
+
+
+/* ナビゲートバー設定 */
+
+#navi01 {width: 600px; height: 40px; _background-color: #EEE;}
+
+#navi01 ul { overflow: hidden; width: 600px; height: 40px;}
+
+#navi01 ul a  { text-decoration:none; font-size: 13px; color: #808080;}
+
+#navi01 ul a:hover { color: #99ccff;}
+
+
+/* パンくずリスト設定 */
+
+#headnavi01 { _width: 1000px; _background-color: #555555;}
+
+#headnavi01 ul { display: table; font-size: 13px;}
+
+#headnavi01 ul li { margin: 0 0 0 0; font-size: 13px; float: left;}
+
+#headnavi01 ul a  { text-decoration:none; font-size: 13px; color: #808080;}
+
+#headnavi01 ul a:hover { color: #99ccff;}
+
+#headnavi01 ul li a { 
+    background: url(/sp/SumahoGazou/list02_bg.png) no-repeat left 10px;
+    padding: 7px 10px 0 20px;
+    height: 40px;
+    display: block;}
+
+
+.wrap01 {display: flex;}
+
+.box_1,.box_2 {_color: #CCC;
+    width: 400px;
+    height: 220px;
+    _margin: 0 10px;
+    _background-color: #eee;}
+
+.list2-wrap {
+	width: 350px;
+	height: 180px;
+margin: 10px;
+	overflow: auto;
+	background: #EEE;}
+
+q::before { 
+  content: ">> ";
+  color: blue;
+padding-left: 1em;
+}
+
