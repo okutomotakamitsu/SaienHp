@@ -68,7 +68,22 @@ hs.captionEval = 'this.thumb.alt';
 	<div id="tops">
 		<div id="head">
 			<div id="logo"><a href="<$MTBlogURL$>index.html"><img src="<$MTBlogURL$>sp/SumahoGazou/logo.jpg" width="300" height="59" alt="株式会社 埼玉園芸市場 ロゴ" /></a></div>
-			<div id="head-right">
+
+
+<div id="head-right01">
+	<div id="headnavi01">
+		<ul>
+			<li><a href="<$MTBlogURL$>index.html">HOME</a></li>
+			<li><a href="<$MTBlogURL$>privacy.html">プライバシーポリシー</a></li>
+			<li><a href="<$MTBlogURL$>sitemap.html">サイトマップ</a></li>
+			<li><a href="<$MTBlogURL$>contact.html">お問い合わせ</a></li>
+		</ul>
+	</div>
+	<!-- p class="tel01"><q>0480-69-1118</q></P -->
+</div>
+
+
+			<!-- div id="head-right">
 
 				<div id="headnavi">
 					<ul>
@@ -78,17 +93,6 @@ hs.captionEval = 'this.thumb.alt';
 						<li class="navi4"><a href="<$MTBlogURL$>contact.html"><span>お問い合わせ</span></a></li>
 					</ul>
 				</div>
-
-<!-- div id="headnavi01">
-	<ul>
-		<li><a href="<$MTBlogURL$>index.html">HOME</a></li>
-		<li><a href="<$MTBlogURL$>privacy.html">プライバシーポリシー</a></li>
-		<li><a href="<$MTBlogURL$>sitemap.html">サイトマップ</a></li>
-		<li><a href="<$MTBlogURL$>contact.html">お問い合わせ</a></li>
-	</ul>
-</div -->
-
-
 
 				<div id="fontSize">
 					<ul id="fontSizeSet">
@@ -102,7 +106,7 @@ hs.captionEval = 'this.thumb.alt';
 				<div id="contact-box">
 					<a href="<$MTBlogURL$>contact.html"><img src="<$MTBlogURL$>img/mail.gif" width="38" height="23" alt="メールでお問い合わせ" /></a>
 				</div>
-			</div>
+			</div -->
 		</div>
 
 <div id="navi01">
