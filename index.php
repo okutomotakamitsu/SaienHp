@@ -32,6 +32,7 @@ $(function() {
      <li><img src="sp/SumahoGazou/tps_l_02.jpg"></li>
      <li><img src="sp/SumahoGazou/tps_l_03.jpg"></li>
      <li><img src="sp/SumahoGazou/tps_l_04.jpg"></li>
+     <li><img src="sp/SumahoGazou/tps_l_05.jpg"></li>
   </ul>
 
 
@@ -52,7 +53,7 @@ $(function() {
 <section class="mainmargin2">
   <h2>■SaienLogin画面の取扱いについて</h2>
 
-  <h3>１.ユーザー登録について</h3>
+  <h3>１.ユーザー登録について</h3 -->
   <p>SaienLogin画面中央下にある【ユーザー登録】をクリックしてユーザー登録画面に進んで下さい。<br />必要事項を入力後画面下の【登録】をクリックすると登録完了です。</p>
 
   <h3>２.ログインの仕方</h3>
@@ -85,11 +86,6 @@ $(function() {
   <a href="seisan.html"><img src="img/seisansha_button.gif" width="219" height="64" alt="生産者の方へ" /></a>
   </div>
 </section>
-
-
-
-
-
 
 <section class="mainmargin">					
   <p class="font02">注目の産地情報！</p>
