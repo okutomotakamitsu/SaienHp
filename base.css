@@ -71,6 +71,7 @@ a:hover {
 #head {
 	height: 89px;
 	_background: #FFF url(../img/headbg.gif) repeat-x;
+	_background-color: #EEf;
 }
 
 #logo {
@@ -81,7 +82,7 @@ a:hover {
 #head-right {
 	float: left;
 	padding-left: 100px;
-	background-color: #EEE;
+	_background-color: #EEE;
 }
 
 #headnavi {
@@ -679,9 +680,7 @@ overflow-y : hidden;}
 #navi01 ul a:hover { color: #99ccff;}
 
 
-/* パンくずリスト設定 */
-
-#headnavi01 { _width: 1000px; _background-color: #555555;}
+/* headnavi設定 */
 
 #headnavi01 ul { display: table; font-size: 13px;}
 
@@ -691,19 +690,20 @@ overflow-y : hidden;}
 
 #headnavi01 ul a:hover { color: #99ccff;}
 
-#headnavi01 ul li a { 
-    background: url(/sp/SumahoGazou/list02_bg.png) no-repeat left 10px;
+#headnavi01 ul li a { background: url(/sp/SumahoGazou/list02_bg.png) no-repeat left 10px;
     padding: 7px 10px 0 20px;
-    height: 40px;
+    height: 20px;
     display: block;}
 
+
+/* トップページの横並び設定 */
 
 .wrap01 {display: flex;}
 
 .box_1,.box_2 {_color: #CCC;
     width: 400px;
     height: 220px;
-    _margin: 0 10px;
+    margin: 20px 0;
     _background-color: #eee;}
 
 .list2-wrap {
@@ -716,6 +716,16 @@ margin: 10px;
 q::before { 
   content: ">> ";
   color: blue;
-padding-left: 1em;
+  padding-left: 1em;
 }
 
+
+#head-right01 {
+	float: right;
+	height: 89px;
+	_background-color: #EEE;
+}
+
+.tel01 {font-size: 30px; color: #808080; text-align: right; padding: 10px 10px 0 0;}
+
+.yose01 {padding: 0 10px;}
