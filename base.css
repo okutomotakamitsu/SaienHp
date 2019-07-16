@@ -184,7 +184,9 @@ a:hover {
 
 #foot {
 	height: 93px;
-	background: #fff url(../img/footbg.gif);
+	_background: #fff url(../img/footbg.gif);
+_background: #EEE;
+border-top: double #DDD;
 	font-size: 12px;
 }
 
@@ -209,9 +211,9 @@ a:hover {
 }
 
 #foot-right .footbox {
-	width: 236px;
-	height: 75px;
-	background: url(../img/foot_right_bg.gif);
+	_width: 236px;
+	_height: 75px;
+	_background: url(../img/foot_right_bg.gif);
 }
 
 .foot-right-contact {
@@ -467,13 +469,12 @@ a:hover {
 }
 
 .list2 {
-	min-height: 10px;
-	height: auto !important;
-	height: 10px;
 	overflow-y: auto;
 	overflow-x: hidden;
-	_overflow-y: none;
-	_overflow-x: none;
+width: 500px;
+margin-left: 100px;
+text-align: center;
+background-color: #EEE;
 }
 
 .list2 dt {
@@ -729,3 +730,11 @@ q::before {
 .tel01 {font-size: 30px; color: #808080; text-align: right; padding: 10px 10px 0 0;}
 
 .yose01 {padding: 0 10px;}
+
+.Copyright {color: #808080; text-align:center;}
+
+.box_4, .list2head { width: 700px; margin: 0 auto; text-align:center;}
+
+.kazari2::before {content: "Å° "; color: #808080;}
+
+.listCenter {text-align: right; background-color: #EEE; margin-left: 100px; width: 500px;}
