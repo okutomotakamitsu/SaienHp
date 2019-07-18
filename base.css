@@ -502,10 +502,6 @@ background-color: #EEE;
 	margin: 5px;
 }
 
-.santi {
-	padding: 0 10px 5px 10px;
-}
-
 .staff {
 	padding: 15px 0 0 0;
 }
@@ -557,40 +553,28 @@ background-color: #EEE;
 	margin-bottom:5px;
 }
 
+
+
 /*トップページ産地情報用*/
+.santi { width: 700px;}
+
 .box5 {
-	width: 240px;
+	width: 210px;
 	height: 300px;
-	border: solid 1px #DDDDDD;
+	border: solid 1px #CCC;
 	float: left;
 	margin: 0;
-	padding: 10px 0;
+	padding: 10px;
+	overflow: hidden;
 }
 
-.box5 a {
-	font-weight: bold;
-	color: #336600;
-}
+.box5 a { font-weight: bold; color: #336600;}
 
-.box5 a:hover {
-	color: #663366;
-}
+.box5 a:hover {	color: #663366;}
 
-.box5img {
-	float: left;
-margin: 5px;
-}
+.box5img { float: left;}
 
-#santimain {width: 100px;
-}
-
-#santiside {width: 228px;
-margin-top: 5px;
-float: right;}
-
-iframe {overflow: hidden;
-overflow-x : hidden;
-overflow-y : hidden;}
+.box5 p { _background-color: #CCC;}
 
 /* h2 {width: 460px;
 	margin: 20px;} */
@@ -634,7 +618,7 @@ overflow-y : hidden;}
 
 
 /* slickスライダー設定 */
-.slider {
+/*.slider {
     width: 1000px;
     height:344px;
     margin: 0 auto;
@@ -648,7 +632,7 @@ overflow-y : hidden;}
 }
 .slider img {
     width: 100%;
-}
+}*/
 
 
 .list01 {
@@ -669,6 +653,28 @@ overflow-y : hidden;}
     height: 40px;
     display: block;}
 
+
+
+.slider {
+  max-width: 1000px;
+  margin: 0 auto 5px;
+  padding: 0;
+  transition: opacity .3s linear;
+}
+.slider img,
+.slider-thumb img{
+  width: 100%;
+}
+.slider-thumb {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.slider-thumb li {
+  margin: 0;
+}
+.slider-thumb div div div {
+  cursor: pointer;
+}
 
 /* ナビゲートバー設定 */
 
