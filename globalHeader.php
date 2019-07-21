@@ -69,7 +69,6 @@ hs.captionEval = 'this.thumb.alt';
 		<div id="head">
 			<div id="logo"><a href="<$MTBlogURL$>index.html"><img src="<$MTBlogURL$>sp/SumahoGazou/logo.jpg" width="300" height="59" alt="äîéÆâÔé– çÈã âÄå|ésèÍ ÉçÉS" /></a></div>
 
-
 <div id="head-right01">
 	<div id="headnavi01">
 		<ul>
@@ -79,7 +78,7 @@ hs.captionEval = 'this.thumb.alt';
 			<li><a href="<$MTBlogURL$>contact.html">Ç®ñ‚Ç¢çáÇÌÇπ</a></li>
 		</ul>
 	</div>
-	<!-- p class="tel01"><q>0480-69-1118</q></P -->
+	<p class="tel01">? 0480-69-1118</P>
 </div>
 
 
