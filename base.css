@@ -33,44 +33,30 @@ a:hover {
 #tops {
 	margin: 0 auto;
 	width: 1000px;
-	_width: 798px;
-	_width: 800px;
-	#width: 800px;
 	text-align: left;
 	min-height: 600px;
 	height: auto !important;
 	height: 600px;
 	overflow-y: auto;
 	overflow-x: hidden;
-	_overflow-y: none;
-	_overflow-x: none;
 	background-color: #FFF;
-	_border-left: 1px solid #ccc;
-	_border-right: 1px solid #ccc;
 }
 
 #top {
 	margin: 0 auto;
 	width: 1000px;
-	_width: 798px;
-	_width: 800px;
-	#width: 800px;
 	text-align: left;
 	min-height: 590px;
 	height: auto !important;
 	height: 590px;
 	overflow-y: auto;
 	overflow-x: hidden;
-	_overflow-y: none;
-	_overflow-x: none;
-	_background: #fff url(../img/kaso_main_bg.gif) right repeat-y;
 	border-left: 1px solid #ccc;
 	border-right: 1px solid #ccc;
 }
 
 #head {
 	height: 89px;
-	_background: #FFF url(../img/headbg.gif) repeat-x;
 	_background-color: #EEf;
 }
 
@@ -185,8 +171,7 @@ a:hover {
 #foot {
 	height: 93px;
 	_background: #fff url(../img/footbg.gif);
-_background: #EEE;
-border-top: double #DDD;
+	border-top: double #DDD;
 	font-size: 12px;
 }
 
@@ -356,7 +341,7 @@ border-top: double #DDD;
 	background: #EEE;
 }
 
-.column {
+/* .column {
 	min-height: 80px;
 	height: auto !important;
 	height: 80px;
@@ -365,7 +350,7 @@ border-top: double #DDD;
 	_overflow-y: none;
 	_overflow-x: none;
 	padding: 20px 8px 0 8px;
-}
+} */
 
 .column2 {
 	min-height: 80px;
@@ -579,8 +564,8 @@ background-color: #EEE;
 /* h2 {width: 460px;
 	margin: 20px;} */
 
-.rightmargin {margin: 0 0 5em 0;}
-.mainmargin {margin: 0 0 5em 0;}
+.rightmargin {margin: 0 0 10em 0;}
+.mainmargin {margin: 0 0 10em 0;}
 
 .naka { text-align: center;}
 
@@ -617,35 +602,19 @@ background-color: #EEE;
 .font03 {font-family: 'Noto Sans Japanese'; font-size: 24px; font-weight: 100; border-bottom: 1px solid #ccc; width: 350px;}
 
 
-/* slickスライダー設定 */
-/*.slider {
-    width: 1000px;
-    height:344px;
-    margin: 0 auto;
-    _background-color: #EEE;
-    
-    opacity: 0;
-    transition: opacity .3s linear;
-}
-.slider.slick-initialized{
-    opacity: 1;
-}
-.slider img {
-    width: 100%;
-}*/
+/* ヘッダー部バー設定 */
 
-
-.list01 {
+ .list01 {
     font-size: 12px;
     color: #3b3b3b;
     overflow: hidden;
     zoom: 1;
     float: left;
     margin: 0;
+backgrund-color: #FFF;
 }
 
-.list01 li {float: left;
-    height: 47px;}
+.list01 li {float: left; height: 47px;}
 
 .list01 li a { 
     background: url(/sp/SumahoGazou/list01_bg.png) no-repeat right 10px;
@@ -654,27 +623,17 @@ background-color: #EEE;
     display: block;}
 
 
+/* slickスライダー設定 */
 
 .slider {
   max-width: 1000px;
   margin: 0 auto 5px;
   padding: 0;
+  opacity: 0;
   transition: opacity .3s linear;
 }
-.slider img,
-.slider-thumb img{
-  width: 100%;
-}
-.slider-thumb {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-.slider-thumb li {
-  margin: 0;
-}
-.slider-thumb div div div {
-  cursor: pointer;
-}
+
+.slider.slick-initialized{ opacity: 1;}
 
 /* ナビゲートバー設定 */
 
@@ -688,6 +647,8 @@ background-color: #EEE;
 
 
 /* headnavi設定 */
+
+#headnavi01 { background-color: #FFF;}
 
 #headnavi01 ul { display: table; font-size: 13px;}
 
@@ -728,12 +689,13 @@ q::before {
 
 
 #head-right01 {
+width: 420px;
 	float: right;
 	height: 89px;
 	_background-color: #EEE;
 }
 
-.tel01 {font-size: 30px; color: #808080; text-align: right; padding: 10px 10px 0 0;}
+.tel01 { font-size: 30px; color: #808080; text-align: right; margin: 0 0 0 140px;}
 
 .yose01 {padding: 0 10px;}
 
@@ -742,5 +704,30 @@ q::before {
 .box_4, .list2head { width: 700px; margin: 0 auto; text-align:center;}
 
 .kazari2::before {content: "■ "; color: #808080;}
+.kazari3::before {
+    content: url(../sp/SumahoGazou/girl.jpg);
+    margin: 8px;
+    position: relative;
+    top: 8px;}
 
 .listCenter {text-align: right; background-color: #EEE; margin-left: 100px; width: 500px;}
+
+.innerBlock {width: 1000px; height:120px; _background-color: #EEE; margin: 70px 0 20px 0; overflow: hidden;}
+
+.innerBlock ul {width: 1008px; margin-right: -8px;}
+
+.innerBlock ul li {float: left; margin: 0 12px 0 0;}
+
+
+
+#cse-search-box { text-align:right; margin: 10px 0; _background-color: #EEF;}
+
+#cse-search-box input[type="text"] { font-size: 12px; height: 24px; background: #f9f9f9; border-radius: 5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px; box-shadow: 0 0 5px #dddddd;}
+
+/* @media (min-width: 751px) {
+a[href*="tel:"] {
+pointer-events: none;
+cursor: default;
+text-decoration: none;
+text-align: right;
+}} */
