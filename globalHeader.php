@@ -13,7 +13,7 @@ print <<<EOM
 <head>
 	<meta https-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta https-equiv="content-language" content="ja" />
-	<title>株式会社 埼玉園芸市場 - <MTGetVar name="page_title"></title>
+	<title>Saien｜埼玉園芸市場公式サイト - <MTGetVar name="page_title"></title>
 
 <meta https-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta https-equiv="content-Style-type" content="text/css" />
@@ -75,10 +75,21 @@ hs.captionEval = 'this.thumb.alt';
 			<li><a href="<$MTBlogURL$>index.html">HOME</a></li>
 			<li><a href="<$MTBlogURL$>privacy.html">プライバシーポリシー</a></li>
 			<li><a href="<$MTBlogURL$>sitemap.html">サイトマップ</a></li>
-			<li><a href="<$MTBlogURL$>contact.html">お問い合わせ</a></li>
+			<li><a href="mailto:info@saien.co.jp?subject=%e3%82%b5%e3%82%a4%e3%82%a8%e3%83%b3%e3%83%9b%e3%83%bc%e3%83%a0%e3%83%9a%e3%83%bc%e3%82%b8%e3%81%8b%e3%82%89%e3%81%ae%e3%81%8a%e5%95%8f%e3%81%84%e5%90%88%e3%82%8f%e3%81%9b">お問い合わせ</a></li>
 		</ul>
 	</div>
-	<p class="tel01">? 0480-69-1118</P>
+<form id="cse-search-box" action="http://google.com/cse">
+  <input type="hidden" name="cx" value="006227392899238622030:hryq1kpas8s" />
+  <input type="hidden" name="ie" value="UTF-8" />
+  <input type="text" name="q" size="32" />
+  <input type="submit" name="sa" value="検索" id="search_btn" />
+</form>
+<script type="text/javascript" src="//www.google.com/cse/brand?form=cse-search-box&lang=ja">
+</script>
+<a class="tel01" href="tel:0480691118">? 0480-69-1118</a>
+
+
+	
 </div>
 
 
@@ -106,6 +117,12 @@ hs.captionEval = 'this.thumb.alt';
 					<a href="<$MTBlogURL$>contact.html"><img src="<$MTBlogURL$>img/mail.gif" width="38" height="23" alt="メールでお問い合わせ" /></a>
 				</div>
 			</div -->
+
+
+
+
+
+
 		</div>
 
 <div id="navi01">
