@@ -1,9 +1,10 @@
- <div id="foot">
-			<div id="foot-right">
+<div id="foot">
+			<!-- div id="foot-right">
 				<div class="footbox">
 					<a href="contact.html"><img src="img/foot_right_contact.gif" width="107" height="13" alt="‚¨–â‚¢‡‚í‚¹ƒtƒH[ƒ€" class="foot-right-contact" /></a>
 				</div>
-			</div>
+			</div -->
+
 			<div id="foot-left">
 				<ul>
 					<li>b<a href="">HOME</a></li>
@@ -24,6 +25,9 @@
 		</div>
 	</div>
 </div>
+
+<p class="Copyright">Š”®‰ïĞ é‹Ê‰€Œ|sê ‰Á{‰Ô‚«</p>
+<p class="Copyright">Copyright c Sain kazokaki, Inc. All Rights Reserved.</p>
 
 </body>
 </html> 
