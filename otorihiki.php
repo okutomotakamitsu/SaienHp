@@ -21,11 +21,11 @@
 	<div class="column3">
 		<div class="left-box">
 
-<div class="box_top">
+<div class="box_top2">
       <p><q class="kazari2">取引希望のお客様募集中！</q></p>
       <p>買参人、生産者の方で埼玉園芸市場で取引をご希望の方は此方の<a href="mailto:info@saien.co.jp?subject=%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%8B%E3%82%89%E3%81%AE%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%EF%BC%88%E5%8F%96%E5%BC%95%E5%B8%8C%E6%9C%9B%E3%81%AE%E3%81%8A%E5%AE%A2%E6%A7%98%EF%BC%89">メールでのお問合せはこちら</a>から申し込みください。また下記記載の電話・FAXでのお申込も受付けております。<br />
       詳細は確認が取れ次第、追って担当者からご連絡させて頂きます。</p>
-<p>電話：0480(69)1118(代) / FAX：0480(69)3918</p>
+<p>電話：0480(69)1118(代)<span> / FAX：0480(69)3918</p>
 </div>
 
 <section class="mainmargin">
@@ -54,7 +54,7 @@
 </section>
 
 <section class="mainmargin">
-<p class="font02"><q class="kazari3">よくある質問</q></p>
+<p class="font04"><q class="kazari3">よくある質問</q></p>
 
 <h3 class="ml10"><img src="<$MTBlogURL$>img/h3_faq1.gif" width="261" height="23" alt="買参人の方からのご質問" /></h3>
 <ul class="list3">
