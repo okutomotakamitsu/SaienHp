@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* saienスマホ用HP基本CSS　作成開始日：2017/11/22　作成者：奥友 */
+
+
+/* 基本中の基本 */ 
+
+  html { font-size: 62.5%;}
+
+  body {
+    font-family: 'ヒラギノ角ゴ ProN W3','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro','verdana','メイリオ','Meiryo','ＭＳ Ｐゴシック', sans-serif;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 1.2em;
+/*    text-align: center; */
+    color: #343434;
+    background-color:#FFFFFF;
+    border-top:solid 6px #5e8eab;
+    border-bottom:solid 6px #5e8eab;
+  }
+
+#container{width: auto;}
+
+  a:link, a:visited, a:hover, a:active { color: #69ABDB; text-decoration: none;}
+
+  img { margin: 0; padding: 0; max-width:100%; height:auto; border:0;}
+
+  h1.tpber  { margin: 0.5em 0; padding:0; border-bottom:solid 1px #5e8eab;}
+
+
+/* 文字関係 */
+
+  h1 {}
+  h2 { font-size: 1.5em; font-family: 'Noto Sans Japanese'; font-style: normal;  font-weight: 100; text-align: center;}
+  h3 { font-size: 1.25em; margin: 1em; border-left:solid 4px #5e8eab; padding-left: 5px; font-family: 'TakaoPGothic'; font-style: normal;  font-weight: 100;}
+  h3.h3margin {margin-top: 4em;}
+  p {font-size: 1em; margin: 10px; }
+
+
+/* 段落関係 */
+  section {margin: 0 0 5em 0;}
+  section.topsection { margin: 0;}
+
+  hr { margin: 0; padding: 0; height: 0; border: 0; border-top: 1px solid #ddd; border-bottom: 1px solid #fff; }
+
+
+/* 文字寄せなど */
+  p.center { text-align:center;}
+  p.center_red { text-align:center; color: red;}
+
+
+/* 未整理 */
+  .dl-menu li { text-align:left;}
+
+
+/* 部門紹介 */
+.bumonlist { /* background-color: #555555; */
+  border:solid 1px #ddd;
+  margin:0; padding: 0;}
+
+.bumonlist img {vertical-align: middle;}
+
+.bumonlist a {vertical-align: middle;
+margin: 0 0 0 1em;}
+
+/* 会社概要・沿革 */
+.kaisha_table {width: 100%; margin: 0; padding: 0;}
+
+.koumoku { margin: 0; padding: 1em 0.5em; background-color: #ccc;width: 25%;}
+.youso { margin: 0; padding: 1em 0.5em; background-color: #eee; width: 75%;}
+
+.koumoku_enkaku { margin: 0; padding: 1em 0.5em; background-color: #ccc; width: 40%;}
+.youso_enkaku { margin: 0; padding: 1em 0.5em; background-color: #eee; width: 60%;}
